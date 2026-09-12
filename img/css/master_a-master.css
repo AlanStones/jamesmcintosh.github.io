@@ -1,0 +1,85 @@
+#u1844
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u786
+{
+	border-color: #000000;
+	background-color: #FFFFFF;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	position: fixed;
+}
+
+.js #u786.ose_pre_init
+{
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+
+#u787
+{
+	background-color: transparent;
+	position: fixed;
+}
+
+#u1318
+{
+	position: fixed;
+}
+
+.gs-style1
+{
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+}
+
+#u1334
+{
+	position: fixed;
+}
+
+#u1329
+{
+	position: fixed;
+}
+
+#u1349
+{
+	position: fixed;
+}
+
+#u1339
+{
+	position: fixed;
+}
+
+#u1344
+{
+	position: fixed;
+}
+
+#u1324
+{
+	position: fixed;
+}
+
+#u1312
+{
+	position: fixed;
+}
+
+#u1318:hover,#u1334:hover,#u1329:hover,#u1349:hover,#u1339:hover,#u1344:hover,#u1324:hover,#u1312:hover
+{
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+

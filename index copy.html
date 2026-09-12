@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>James McIntosh - award winning cookery writer and tv presenter</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFFFFF;
+			margin:0;
+			height:100%;
+		}
+	
+      #centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+   
+    margin-top: -360px; /*set to a negative number 1/2 of your height*/
+    margin-left: -640px; /*set to a negative number 1/2 of your width*/
+}	
+      
+        </style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=1280" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:700&subset=latin' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56377877-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://jamesmcintosh.co.uk/phone/index.html"/>
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://jamesmcintosh.co.uk/tablet/index.html"/>
+  <link rel="shortcut icon" href="images/favicon.ico?crc=4097520628"/>
+  <title>James McIntosh - award winning cookery writer and tv presenter.</title>	
+
+      
+ 
+<script type="text/javascript">
+var alsoenlarge = true;
+
+$(function(){
+    if(isScalePossible()){
+        $('body').css({overflow:'hidden'});
+        $('#scalecontainer').css({position: 'absolute', margin: 0});
+
+        // Run scale function on start
+        scaleSite();
+        scaleSite();
+
+        // Run scale function on browser resize
+        $(window).resize(scaleSite);
+    }
+});
+
+function scaleSite()
+{
+    containerw = window.innerWidth * 0.5; /* The width of the div, currently set to half of the window's width */
+    containerh = 600; /* The maximum possible height of the div; the recommend size for this is equal to or larger than the H of the element. */
+    sitew = $('#scalecontainer').width();
+    siteh = $('#scalecontainer').height();
+    f = containerw/sitew;
+    f = containerh/siteh<f?containerh/siteh:f;
+    if(!alsoenlarge && f>1) f = 1;
+    $('#scalecontainer').css({
+        "-moz-transform"    : "scale("+f+")",
+        "-webkit-transform" : "scale("+f+")",
+        "-ms-transform"     : "scale("+f+")",
+        "-o-transform"      : "scale("+f+")",
+        "transform"         : "scale("+f+")",
+        "left"              : ((containerw-(sitew*f))/2)+"px",
+        "top"               : "0px"
+    });
+}
+
+function isScalePossible()
+{
+    can = 'MozTransform' in document.body.style;
+    if(!can) can = 'webkitTransform' in document.body.style;
+    if(!can) can = 'msTransform' in document.body.style;
+    if(!can) can = 'OTransform' in document.body.style;
+    if(!can) can = 'transform' in document.body.style;
+    if(!can) can = 'Transform' in document.body.style;
+    return can;
+}
+
+</script>	
+	
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+      
+  <div id="centered">
+	<div id="jameshomepage_hype_container" style="margin:auto;position:relative;width:1280px;height:720px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="James-homepage.hyperesources/jameshomepage_hype_generated_script.js?17409"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div></div>
+		<div>click here to
+sign up for my
+newsletter</div>
+		<div>world award winning food writer and tv presenter
+</div>
+		<div>Copyright © 2017 James McIntosh Limited      Terms and Conditions     All rights reserved.</div>
+
+	</div>
+      </div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>
